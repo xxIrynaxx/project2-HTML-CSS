@@ -11,6 +11,7 @@ html {
 .price-page {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #141b1c;
   height: 100vh;
 }
@@ -22,7 +23,6 @@ html {
   width: 380px;
   height: 770px;
   background-color: #334247;
-  margin: 115px 0;
   margin-right: 18px;
 }
 .price-card:last-child {
