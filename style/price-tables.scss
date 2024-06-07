@@ -1,0 +1,106 @@
+@import 'variables.scss';
+.price-card {
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  width: 380px;
+  height: 770px;
+  background-color: $card-color-primary;
+  margin: 115px 0;
+  margin-right: 18px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__badge {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 147px;
+    height: 25px;
+    background-color: $badge-color;
+    transform: rotate(45deg);
+    top: 30px;
+    right: -35px;
+
+    &-text {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  &__title {
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 33px;
+  }
+
+  &__subtitle {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 33px;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105px;
+    background-color: $first-card-banner-color;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    margin-bottom: 40px;
+
+    &_blue {
+      background-color: $second-card-banner-color;
+    }
+
+    &_orange {
+      background-color: $third-card-banner-color;
+    }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  &__order-btn {
+    background-color: $first-card-banner-color;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin: 40px 112px;
+    padding: 11px 28px 12px 27px;
+
+    &_blue {
+      background-color: $second-card-banner-color;
+    }
+
+    &_orange {
+      background-color: $third-card-banner-color;
+    }
+    &-text {
+      font-weight: 400;
+      color: $text-color;
+      line-height: 17px;
+      font-size: 14px;
+    }
+  }
+}

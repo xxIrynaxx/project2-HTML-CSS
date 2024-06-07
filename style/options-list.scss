@@ -1,0 +1,36 @@
+@import 'variables.scss';
+.options-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    height: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 16px 0;
+
+    &:nth-child(odd) {
+      background-color: $card-color-secondary;
+    }
+  }
+  &__icon {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin: 0 22px;
+  }
+  &__checkmark-green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+
+  &__checkmark-blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+
+  &__checkmark-orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+}
