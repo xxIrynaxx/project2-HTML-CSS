@@ -79,6 +79,11 @@
     text-align: center;
   }
 
+  &__options-list {
+    margin: 0;
+    padding: 0;
+  }
+
   &__order-btn {
     background-color: $first-card-banner-color;
     border: none;

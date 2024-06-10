@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 .options-list__item {
   height: 50px;
