@@ -1,6 +1,5 @@
 @import 'variables.scss';
 .price-card {
-  flex-shrink: 0;
   position: relative;
   overflow: hidden;
   width: 380px;
@@ -69,9 +68,6 @@
   }
 
   &__description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 327px;
     font-size: 15px;
     line-height: 18px;
@@ -92,6 +88,9 @@
     height: 40px;
     margin: 40px 112px;
     padding: 11px 28px 12px 27px;
+    color: $text-color;
+    line-height: 17px;
+    font-size: 14px;
 
     &_blue {
       background-color: $second-card-banner-color;
@@ -99,12 +98,6 @@
 
     &_orange {
       background-color: $third-card-banner-color;
-    }
-    &-text {
-      font-weight: 400;
-      color: $text-color;
-      line-height: 17px;
-      font-size: 14px;
     }
   }
 }
